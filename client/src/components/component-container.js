@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ImgCaption from './img-caption';
 import Nav from './nav';
-import Post from './post';
+import Preview from './nav';
+
+
 import Footer from './footer';
 
 class Container extends Component {
@@ -9,7 +11,7 @@ class Container extends Component {
     return (
       <div>
         <Nav />
-        <Post />
+        <Preview />
         <Footer />
       </div>
     );
